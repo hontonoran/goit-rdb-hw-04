@@ -28,11 +28,7 @@ result = 518 rows
 
 ### 4.2 INNER на LEFT JOIN
 [p4_2_count.sql](sql/p4_2_count.sql)
-
-INNER JOIN employees і INNER JOIN suppliers змінено на LEFT JOIN. Результат (result = 518 rows) не змінився.
-
-**Пояснення до отриманого результату**: кількість не змінилася, тому що кожен order має employee, а кожен product наявного supplier, відповідно безпарних рядків нема.
-INNER JOIN нічого не відкидав, тому для LEFT JOIN і нема чого додати. Кількість могла б зрости, якщо б в лівій таблиці були записи без пари справа.
+Відповідь у текстовому файлі [answers.txt](answers.txt)
 
 ![](screenshots/p4_2_left_join_count.png)
 
