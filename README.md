@@ -5,8 +5,11 @@
 ## Завдання №1
 Створення схеми LibraryManagement і таблиць [p1_create_tables.sql](sql/p1_create_tables.sql)
 
-![](screenshots/p1_tables_structure_1.png)
-![](screenshots/p1_tables_structure_2.png)
+EER діаграма зв'язків між таблицями:
+
+![](screenshots/schema/p1_eer_diagram.png)
+
+Структура таблиць: [1](screenshots/schema/p1_tables_structure_1.png), [2](screenshots/schema/p1_tables_structure_2.png)
 
 ## Завдання №2
 Заповнення таблиць власними тестовими даними [p2_insert_values.sql](sql/p2_insert_values.sql)
