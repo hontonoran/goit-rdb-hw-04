@@ -1,4 +1,9 @@
-use hw3;
+USE hw3;
+
+-- INNER JOIN employees і suppliers змінено на LEFT JOIN.
+-- Результат не змінився, все ще 518 рядків.
+-- Кількість не змінилася, тому що кожен order має employee,
+-- а кожен product наявного supplier, відповідно безпарних рядків нема.
 
 SELECT COUNT(*) AS total_rows
 FROM order_details

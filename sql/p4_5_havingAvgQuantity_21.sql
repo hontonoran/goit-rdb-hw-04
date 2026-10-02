@@ -12,4 +12,6 @@ INNER JOIN categories ON products.category_id = categories.id
 INNER JOIN employees ON orders.employee_id = employees.employee_id
 INNER JOIN shippers ON orders.shipper_id = shippers.id
 INNER JOIN suppliers ON products.supplier_id = suppliers.id
-GROUP BY categories.name;
+WHERE employees.employee_id > 3 AND employees.employee_id <= 10
+GROUP BY categories.name
+HAVING avg_quantity > 21;
